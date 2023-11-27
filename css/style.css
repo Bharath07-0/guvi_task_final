@@ -1,0 +1,184 @@
+/* Add some background color to the body */
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("C:/xampp/htdocs/my_version - Copy/my_version/assert/nice.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* Center the login form on the page */
+.container {
+    margin-top: 100px;
+}
+
+/* Style the form */
+#loginForm {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style form inputs */
+.form-control {
+    margin-bottom: 15px;
+}
+
+/* Style the login button */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+/* Add some spacing to the "Register Here" link */
+div > p {
+    margin-top: 20px;
+}
+
+/* Add some color to the link */
+div > p > a {
+    color: #28a745;
+    font-weight: bold;
+}
+
+/* Add hover effect to the link */
+div > p > a:hover {
+    text-decoration: underline;
+}
+/* Add styling for the eye icon */
+.password-group {
+    position: relative;
+}
+
+#togglePassword {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+
+/* Custom styles for the profile page */
+body {
+    background-color: #faf8f8;
+}
+
+.profile {
+    margin-top: 50px;
+}
+
+#profileInfo {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+#editProfileForm {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Add your custom styles here */
+
+body {
+    background-color: #f8f9fa;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    margin-top: 50px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .forms {
+    margin-top: 20px;
+  }
+  
+  .form-groupr {
+    margin-bottom: 15px;
+  }
+  
+  .form-control {
+    border-radius: 5px;
+  }
+  
+  .form-btn {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  a {
+    color: #007bff;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  /* Optional: Add some style to the header */
+  header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  header h1 {
+    color: #007bff;
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 18px;
+    color: #6c757d;
+  }
+  
+  /* Optional: Style form inputs */
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="date"],
+  input[type="number"],
+  input[type="tel"] {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #cecfda;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  /* Optional: Style form inputs on focus */
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="password"]:focus,
+  input[type="date"]:focus,
+  input[type="number"]:focus,
+  input[type="tel"]:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
